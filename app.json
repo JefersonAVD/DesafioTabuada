@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "DesafioTabuada",
-    "slug": "DesafioTabuada",
+    "name": "Desafio da Tabuada",
+    "slug": "Desafio-Tabuada",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#545454"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,10 +20,8 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package":"com.jeff.Desafiotabuada",
+			"versionCode":1
     },
     "web": {
       "favicon": "./assets/favicon.png"
